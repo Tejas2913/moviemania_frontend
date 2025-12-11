@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom hover effect */
+.movie-card:hover {
+  transform: translateY(-6px) scale(1.01);
+}
